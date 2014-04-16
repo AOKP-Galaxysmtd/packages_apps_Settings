@@ -163,8 +163,8 @@
         android:icon="@drawable/ic_settings_advanced">
         <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="org.omnirom.device.DeviceSettings"
-                android:targetPackage="org.omnirom.device" />
+                android:targetClass="org.cyanogenmod.device.DeviceSettings"
+                android:targetPackage="org.cyanogenmod.device" />
     </header>
 
     <!-- PERSONAL -->

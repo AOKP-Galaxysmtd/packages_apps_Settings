@@ -547,7 +547,7 @@ public class Settings extends PreferenceActivity
                 try{
                     // Set localized title of advanced settings
                     header.title = getPackageManager().getApplicationLabel(getPackageManager()
-                            .getPackageInfo("org.omnirom.device", PackageManager.GET_META_DATA).applicationInfo);
+                            .getPackageInfo("org.cyanogenmod.device", PackageManager.GET_META_DATA).applicationInfo);
                 }
                 catch (NameNotFoundException e){
                     target.remove(header);  // Package does not exist. Remove entry.
